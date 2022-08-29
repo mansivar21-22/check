@@ -1,0 +1,37 @@
+﻿@model IEnumerable<WebAppCoreDemo.Models.Employee>
+
+
+
+
+
+
+<h1>This is my Welcome Page created by Admin Controller. </h1>
+
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<center>
+    <p><h1><b>EMPLOYEES LIST</b></h1></p>
+
+    <table>
+        <tr>
+            <th>EMP_ID</th>
+            <th>EMP_NAME</th>
+            <th>EMP_SALARY</th>
+        </tr>
+    
+       @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.Empid</td>
+                <td>@i.Empname</td>
+                <td>@i.Empsalary</td>
+            </tr>
+        }
+
+    </table>
+
+</center>

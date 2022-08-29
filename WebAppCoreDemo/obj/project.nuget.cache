@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QMh+qFrGWBEy/I0ku0SY+YTnGJ6GAIntNX0xXCWdyBd+WYxyNtFTqz+jHaI5H+hP1267menjbvLag7Z8jeUz2w==",
+  "success": true,
+  "projectFilePath": "D:\\User Data\\Desktop\\Cognizant\\Programs\\ASP .net Core Applications\\WebAppCoreDemo\\WebAppCoreDemo\\WebAppCoreDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
